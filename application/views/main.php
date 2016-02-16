@@ -27,9 +27,9 @@
 						echo $this->session->flashdata("login_error");
 					}
 				?>
-				<fieldset>
-					<legend>Log In</legend>
-					<form action="logmein" method="post" role="form">
+				<form action="logmein" method="post" role="form">
+					<fieldset>
+						<legend>Log In</legend>
 						<div class="form-group">
 							<label for="e-mail">Email:</label>
 							<input type="email" name="email" id="e-mail">
@@ -39,15 +39,15 @@
 							<input type="password" name="password" id="pass">
 						</div>
 						<button class="btn btn-info">Login</button>
-					</form>
-				</fieldset>
+					</fieldset>
+				</form>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-sm-12 col-md-12 col-lg-12">
-				<fieldset>
-					<legend>Registration</legend>
-					<form action="register" method="post" role="form">
+				<form action="register" method="post" role="form">
+					<fieldset>
+						<legend>Register</legend>
 						<div class="form-group">
 							<label for="first-name">First Name:</label>
 							<input type="text" name="first_name" id="first-name">
@@ -69,8 +69,8 @@
 							<input type="password" name="passconf" id="pass2">
 						</div>
 						<button class="btn btn-info">Register</button>
-					</form>
-				</fieldset>
+					</fieldset>
+				</form>
 			</div>
 		</div>
 	</div>
